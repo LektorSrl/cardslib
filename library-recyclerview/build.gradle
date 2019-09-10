@@ -23,12 +23,12 @@ android {
 
 dependencies {
     // Cards Library
-    compile project(':library-core')
+    implementation project(':library-core')
 
     //Annotation
-    compile 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.annotation:annotation:1.0.0'
     //Recycler View
-    compile 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
 
 // Used to update in Maven

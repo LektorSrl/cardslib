@@ -24,16 +24,16 @@ android {
 dependencies {
     //CardView
     //noinspection GradleCompatible
-    compile 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     //Support lib
-    compile 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     //Annotation
-    compile 'androidx.annotation:annotation:1.0.0'
-    compile 'com.survivingwithandroid:weatherlib:1.6.0'
-    compile 'com.survivingwithandroid:weatherlib_volleyclient:1.6.0'
-    compile 'com.mcxiaoke.volley:library:1.0.6@aar'
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'com.survivingwithandroid:weatherlib:1.6.0'
+    implementation 'com.survivingwithandroid:weatherlib_volleyclient:1.6.0'
+    implementation 'com.mcxiaoke.volley:library:1.0.6@aar'
 }
 
 // Used to update in Maven

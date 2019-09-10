@@ -58,7 +58,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     private static final String TAG = makeLogTag(BaseActivity.class);
 
-    // allows access to L-Preview APIs through an abstract interface so we can compile with
+    // allows access to L-Preview APIs through an abstract interface so we can implementation with
     // both the L Preview SDK and with the API 19 SDK
     private LPreviewUtilsBase mLPreviewUtils;
 
